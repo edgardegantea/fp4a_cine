@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eced3d9-b780-4ed7-9d58-73f217bbf774" name="Default Changelist" comment="" />
+    <list default="true" id="4eced3d9-b780-4ed7-9d58-73f217bbf774" name="Default Changelist" comment="agregar archivos a fp4a_cine">
+      <change afterPath="$PROJECT_DIR$/resources/views/movies/viewTable.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MovieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/movies/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movies/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/movies/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movies/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/movies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movies/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/movies/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movies/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,6 +152,7 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hLq1uDu9Dm9maiFiiEJ0DyaHTJ" />
@@ -137,7 +173,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -156,12 +192,36 @@
       <updated>1599800512063</updated>
       <workItem from="1599800513376" duration="7272000" />
       <workItem from="1599988337997" duration="5722000" />
-      <workItem from="1600196769910" duration="4613000" />
+      <workItem from="1600196769910" duration="7701000" />
+      <workItem from="1600362737924" duration="8204000" />
     </task>
+    <task id="LOCAL-00001" summary="agregar archivos a fp4a_cine">
+      <created>1600201668823</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600201668823</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="agregar archivos a fp4a_cine" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregar archivos a fp4a_cine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1681" y="111" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600196917624">
@@ -172,6 +232,18 @@
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="1793" y="243" width="575" height="421" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.708/1366.0.1440.900@1366.0.1440.900" timestamp="1599805814858" />
+    <state x="1869" y="208" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600208336542">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1869" y="208" width="424" height="491" key="FileChooserDialogImpl/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600208336542" />
+    <state x="1949" y="331" width="273" height="207" key="Github.ShareDialog" timestamp="1600201543281">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1949" y="331" width="273" height="207" key="Github.ShareDialog/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600201543281" />
+    <state x="1805" y="108" width="552" height="654" key="Github.UntrackedFilesDialog" timestamp="1600201569700">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1805" y="108" width="552" height="654" key="Github.UntrackedFilesDialog/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600201569700" />
     <state width="955" height="225" key="GridCell.Tab.0.bottom" timestamp="1600196983858">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
@@ -188,14 +260,20 @@
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state width="955" height="225" key="GridCell.Tab.0.right/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600196983858" />
-    <state x="1901" y="372" width="359" height="162" key="NewPhpFileDialog" timestamp="1599802793524">
+    <state x="1901" y="372" width="359" height="162" key="NewPhpFileDialog" timestamp="1600363241057">
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
+    <state x="1901" y="372" key="NewPhpFileDialog/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600363241057" />
     <state x="1901" y="372" width="359" height="162" key="NewPhpFileDialog/72.27.1294.708/1366.0.1440.900@1366.0.1440.900" timestamp="1599802793524" />
-    <state x="1582" y="85" width="956" height="702" key="SettingsEditor" timestamp="1600197322523">
-      <screen x="1366" y="0" width="1440" height="900" />
+    <state x="240" y="27" width="956" height="737" key="SettingsEditor" timestamp="1600365537854">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="240" y="27" width="956" height="737" key="SettingsEditor/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600365537854" />
     <state x="205" y="28" width="956" height="702" key="SettingsEditor/0.28.1366.702/1366.0.1440.900@0.28.1366.702" timestamp="1599988624520" />
     <state x="1582" y="85" width="1007" height="737" key="SettingsEditor/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600197322523" />
+    <state x="1681" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600201675943">
+      <screen x="1366" y="0" width="1440" height="900" />
+    </state>
+    <state x="1681" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600201675943" />
   </component>
 </project>

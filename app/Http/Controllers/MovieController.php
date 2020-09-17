@@ -12,6 +12,7 @@ class MovieController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
+     * Cards
      */
     public function index()
     {
@@ -99,4 +100,12 @@ class MovieController extends Controller
         $movie->delete();
         return redirect()->route('movies.index');
     }
+
+    // Crear función para vista en forma tabular
+    public function viewTable()
+    {
+        $movies = DB::table('movies')->paginate(10);
+        return view('movies.viewTable', compact('movies'));
+    }
+
 }
