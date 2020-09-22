@@ -17,18 +17,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('movies', 'MovieController');
+// Route::resource('movies', 'MovieController');
 Route::get('/movies.viewTable', 'MovieController@viewTable');
 
+// Route::resource('consumables', 'ConsumableController');
+// Route::resource('rooms', 'RoomController');
 
-
-
-
-
+Route::resources([
+    'movies' => 'MovieController',
+    'consumables' => 'ConsumableController',
+    'rooms' => 'RoomController'
+]);
 
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 
