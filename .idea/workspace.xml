@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eced3d9-b780-4ed7-9d58-73f217bbf774" name="Default Changelist" comment="agregar módulo de consumibles">
-      <change afterPath="$PROJECT_DIR$/resources/views/consumables/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/consumables/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ConsumableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ConsumableController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/consumables/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consumables/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/consumables/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/consumables/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="4eced3d9-b780-4ed7-9d58-73f217bbf774" name="Default Changelist" comment="agregar módulo de consumibles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +148,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/consumables" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -192,7 +184,7 @@
       <workItem from="1600362737924" duration="9212000" />
       <workItem from="1600392660662" duration="135000" />
       <workItem from="1600801800532" duration="7622000" />
-      <workItem from="1600970747537" duration="3447000" />
+      <workItem from="1600970747537" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="agregar archivos a fp4a_cine">
       <created>1600201668823</created>
@@ -215,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600808367952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="agregar módulo de consumibles">
+      <created>1600974492596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600974492596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,10 +247,11 @@
       <screen x="1366" y="0" width="1440" height="900" />
     </state>
     <state x="1793" y="243" width="575" height="421" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1294.708/1366.0.1440.900@1366.0.1440.900" timestamp="1599805814858" />
-    <state x="1869" y="208" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600392795426">
-      <screen x="1366" y="0" width="1440" height="900" />
+    <state x="477" y="198" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600974414251">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="1869" y="208" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600392795426" />
+    <state x="477" y="198" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1600974414251" />
     <state x="1869" y="208" width="424" height="491" key="FileChooserDialogImpl/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600208336542" />
     <state x="1949" y="331" width="273" height="207" key="Github.ShareDialog" timestamp="1600201543281">
       <screen x="1366" y="0" width="1440" height="900" />
@@ -289,10 +289,11 @@
     <state x="273" y="27" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1600971506831" />
     <state x="205" y="28" width="956" height="702" key="SettingsEditor/0.28.1366.702/1366.0.1440.900@0.28.1366.702" timestamp="1599988624520" />
     <state x="1582" y="85" width="1007" height="737" key="SettingsEditor/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600197322523" />
-    <state x="1681" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600808377475">
-      <screen x="1366" y="0" width="1440" height="900" />
+    <state x="299" y="164" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600974499644">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="1681" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741/1366.0.1440.900@1366.0.1440.900" timestamp="1600808377475" />
+    <state x="299" y="164" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1600974499644" />
     <state x="1681" y="167" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1366.702/1366.0.1440.900@1366.0.1440.900" timestamp="1600201675943" />
   </component>
 </project>
