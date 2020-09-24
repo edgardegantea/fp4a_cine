@@ -56,7 +56,7 @@ class ConsumableController extends Controller
      */
     public function show(Consumable $consumable)
     {
-        //
+        return view('consumables.show', compact('consumable'));
     }
 
     /**
@@ -67,7 +67,7 @@ class ConsumableController extends Controller
      */
     public function edit(Consumable $consumable)
     {
-        //
+        return view('consumables.edit', compact('consumable'));
     }
 
     /**
@@ -79,7 +79,8 @@ class ConsumableController extends Controller
      */
     public function update(Request $request, Consumable $consumable)
     {
-        //
+        $consumable->update($request->all());
+        return redirect()->route('consumables.index');
     }
 
     /**
@@ -90,6 +91,7 @@ class ConsumableController extends Controller
      */
     public function destroy(Consumable $consumable)
     {
-        //
+        $consumable->delete();
+        return redirect()->route('consumables.index');
     }
 }
