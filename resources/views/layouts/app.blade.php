@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <link href="{{ asset('css/carousel.css') }}" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +21,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
+    <div id="">
 
 
 {{--        AQUÍ MODIFICAMOS EL MENÚ--}}
@@ -114,7 +115,7 @@
             </div>
         </nav>
 
-        <main class="container">
+        <main class="container-fluid">
             @yield('content')
         </main>
     </div>
