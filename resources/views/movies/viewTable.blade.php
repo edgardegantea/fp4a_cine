@@ -2,6 +2,8 @@
 @section('title', 'Películas')
 @section('content')
 
+    <div class="container">
+
     <table class="table">
         <thead>
         <tr>
@@ -35,3 +37,5 @@
         </tbody>
     </table>
 @endsection
+
+    </div>

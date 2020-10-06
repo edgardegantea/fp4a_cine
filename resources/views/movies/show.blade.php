@@ -4,6 +4,7 @@
 
 @section('content')
 
+    <div class="container">
 
         <div class="row">
             <div class="card col-sm bg-light" style="width: 18rem;">
@@ -30,4 +31,4 @@
 
 @endsection
 
-
+    </div>

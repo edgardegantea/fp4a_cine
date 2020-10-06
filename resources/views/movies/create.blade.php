@@ -5,6 +5,9 @@
 @section('content')
 
 
+
+    <div class="container">
+
     <div class="row">
         <div class="col-sm-10"><h1>Agregar película</h1></div>
         <div class="col-sm-2">
@@ -60,6 +63,8 @@
             <input class="btn btn-primary" type="submit" value="Guardar">
 
         </form>
+    </div>
+
     </div>
 
 @endsection

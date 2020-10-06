@@ -1,56 +1,167 @@
+@extends('layouts.app')
+
+
 <link href="{{ asset('css/carousel.css') }}" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{ asset('img/1.jpg') }}" style="height: 768px">
-                <div class="container">
-                    <div class="carousel-caption text-left">
-                        <h1>ALita: Blatle Angel.</h1>
-                        <p>Aquí va una descripción.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Compra tu entrada</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('img/2.jpg') }}" alt="" style="height: 768px">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('img/3.jpg') }}" style="height: 768px">
-                <div class="container">
-                    <div class="carousel-caption text-right">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+
+
+@section('content')
+
+    <div class="col-12">
+    @include('layouts.carousel')
     </div>
 
 
+
+{{--    <div class="row">--}}
+{{--        <div class="col-1 bg-danger">1</div>--}}
+{{--        <div class="col-1 bg-dark">2</div>--}}
+{{--        <div class="col-1 bg-info">3</div>--}}
+{{--        <div class="col-1 bg-primary">4</div>--}}
+{{--        <div class="col-1 bg-success">5</div>--}}
+{{--        <div class="col-1 bg-secondary">6</div>--}}
+{{--        <div class="col-1 bg-success">7</div>--}}
+{{--        <div class="col-1 bg-secondary">8</div>--}}
+{{--        <div class="col-1 bg-info">9</div>--}}
+{{--        <div class="col-1 bg-danger">10</div>--}}
+{{--        <div class="col-1 bg-primary">11</div>--}}
+{{--        <div class="col-4 bg-info">12</div>--}}
+{{--    </div>--}}
+
+
+<div class="row">
+
+    <div class="col-1"></div>
+
+    <div class="col-md-5">
+        <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success"></strong>
+                <h3 class="mb-0 text-uppercase">Gretel & Hansel</h3>
+
+                <p class="mb-auto">Hace mucho tiempo en el distante bosque de un cuento de hadas, una joven lleva a su
+                    hermano menor en una desesperada ...</p>
+                <a href="#" class="stretched-link">
+                    <button class="btn btn-info btn-sm">Leer más</button>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="{{ asset('img/7.jpg') }}" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0 text-uppercase">Mulán (2020)</h3>
+
+                <p class="mb-auto">Cuando el emperador de China lanza un decreto de que un hombre por familia debe
+                    servir al Ejército Imperial ...</p>
+                <a href="{{ url('/movies') }}" class="stretched-link">
+                    <button class="btn btn-info btn-sm">Leer más</button>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="{{ asset('img/8.jpg') }}" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-1"></div>
+
+</div>
+<div class="row">
+
+    <div class="col-1"></div>
+
+    <div class="col-md-5">
+        <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success"></strong>
+                <h3 class="mb-0 text-uppercase">Gretel & Hansel</h3>
+
+                <p class="mb-auto">Hace mucho tiempo en el distante bosque de un cuento de hadas, una joven lleva a su
+                    hermano menor en una desesperada ...</p>
+                <a href="#" class="stretched-link">
+                    <button class="btn btn-info btn-sm">Leer más</button>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="{{ asset('img/7.jpg') }}" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0 text-uppercase">Mulán (2020)</h3>
+
+                <p class="mb-auto">Cuando el emperador de China lanza un decreto de que un hombre por familia debe
+                    servir al Ejército Imperial ...</p>
+                <a href="#" class="stretched-link">
+                    <button class="btn btn-info btn-sm">Leer más</button>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="{{ asset('img/8.jpg') }}" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-1"></div>
+
+</div>
+<div class="row">
+
+    <div class="col-1"></div>
+
+    <div class="col-md-5">
+        <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success"></strong>
+                <h3 class="mb-0 text-uppercase">Gretel & Hansel</h3>
+
+                <p class="mb-auto">Hace mucho tiempo en el distante bosque de un cuento de hadas, una joven lleva a su
+                    hermano menor en una desesperada ...</p>
+                <a href="#" class="stretched-link">
+                    <button class="btn btn-info btn-sm">Leer más</button>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="{{ asset('img/7.jpg') }}" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0 text-uppercase">Mulán (2020)</h3>
+
+                <p class="mb-auto">Cuando el emperador de China lanza un decreto de que un hombre por familia debe
+                    servir al Ejército Imperial ...</p>
+                <a href="#" class="stretched-link">
+                    <button class="btn btn-info btn-sm">Leer más</button>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="{{ asset('img/8.jpg') }}" width="200px" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-1"></div>
+
+</div>
+
+
+<!-- Agregar JavaScript -->
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 
+@endsection

@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('title', 'Editar película')
 @section('content')
+    <div class="container">
+
 
     <div class="row">
         <div class="col-sm-10"><h1>Agregar película</h1></div>
@@ -60,3 +62,5 @@
     </div>
 
 @endsection
+
+    </div>
