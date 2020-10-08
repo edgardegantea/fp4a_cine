@@ -108,7 +108,7 @@
 
 <main>
     @yield('content')
-    @include('layouts.footer')
+{{--    @include('layouts.footer')--}}
 </main>
 
 
